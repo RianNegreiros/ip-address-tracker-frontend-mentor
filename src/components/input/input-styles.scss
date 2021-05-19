@@ -1,0 +1,29 @@
+
+.input-wrap {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1.5rem 0 1.5rem 0;
+
+    input {
+        font-size: 18px;
+        height: 100%;
+        width: 30rem;
+        padding: 1rem;
+        border: none;
+        border-radius: 1rem 0 0 1rem;
+        outline: none;
+    }
+
+    button {
+        background-color: black;
+        background-image: url(../../assets/images/icon-arrow.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 3rem;
+        border: none;
+        border-radius: 0 1rem 1rem 0;
+    }
+}
