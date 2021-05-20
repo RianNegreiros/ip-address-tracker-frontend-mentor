@@ -38,3 +38,30 @@ section {
         }
     }
 }
+
+@media (max-width: 425px) {
+    section {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+
+        .ip-address, .location, .timezone {
+            border: none;
+            width: auto;
+        }
+
+        .location, .timezone, .isp {
+            margin: 0;
+        }
+        
+        article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+}
