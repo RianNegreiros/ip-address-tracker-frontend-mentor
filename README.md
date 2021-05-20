@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [https://ip-address-tracker-master-eight.vercel.app/]
+- Solution URL: https://www.frontendmentor.io/challenges/ip-address-tracker-I8-0yYAH0/hub/ip-address-tracker-using-reactjs-RhkyQy8Ah
+- Live Site URL: https://ip-address-tracker-master-eight.vercel.app/
 
 
 ### Built with
