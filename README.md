@@ -16,7 +16,6 @@ Users should be able to:
 
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
-- See their own IP address on the map on the initial page load
 - Search for any IP addresses or domains and see the key information and location
 
 ### Screenshot
@@ -32,9 +31,11 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- CSS custom properties
+- [SASS](https://sass-lang.com/) - CSS pre-processor
 - Flexbox
 - [React](https://reactjs.org/) - JS library
+- [axios](https://github.com/axios/axios) - JS library
+- [Google Map React](https://github.com/google-map-react/google-map-react) - React library
 
 ### Style Guide
 
