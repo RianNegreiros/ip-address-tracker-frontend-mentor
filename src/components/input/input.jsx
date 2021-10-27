@@ -8,7 +8,7 @@ const Input = () => {
     const { setState } = useContext(Context)
 
     const getData = async (ipAddress) => {
-         const apiUrl = `https://ip-geolocation.whoisxmlapi.com/api/v1?apiKey=at_WZoTV7gu5Z0LaEEjGpFyMIkCtP6SH&ipAddress=${ipAddress}`
+         const apiUrl = `https://ip-geolocation.whoisxmlapi.com/api/v1?apiKey=${process.env.geo_api_Key}=${ipAddress}`
          const response = await axios.get(apiUrl)
          const {ip,  isp, location } = await response.data
          setState({
